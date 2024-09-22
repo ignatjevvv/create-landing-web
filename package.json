@@ -2,6 +2,10 @@
   "name": "create-landing-web",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ignatjevvv/create-landing-web.git"
+  },
   "bin": {
     "create-landing-web": "./index.js"
   },
