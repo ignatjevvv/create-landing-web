@@ -1,0 +1,52 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: ;
+
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --first-color: hsl();
+    --first-color-alt: hsl();
+    --first-color-light: hsl();
+    --first-color-lighten: hsl();
+    --second-color: hsl();
+    --title-color: hsl();
+    --text-color: hsl();
+    --text-color-light: hsl();
+    --border-color: hsl();
+    --body-color: #fff;
+    --container-color: #fff;
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: 'Poppins', sans-serif;
+
+    --biggest-font-size: ;
+    --h1-font-size: ;
+    --h2-font-size: ;
+    --h3-font-size: ;
+    --normal-font-size: ;
+    --small-font-size: ;
+    --smaller-font-size: ;
+
+    // Responsive typography
+    @media screen and (min-width: 1024px) {
+        --biggest-font-size: ;
+        --h1-font-size: ;
+        --h2-font-size: ;
+        --h3-font-size: ;
+        --normal-font-size: ;
+        --small-font-size: ;
+        --smaller-font-size: ;
+    }
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}

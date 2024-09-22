@@ -1,0 +1,14 @@
+{
+  "name": "create-landing-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "create-landing-web": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^9.4.0",
+    "fs-extra": "^10.0.0"
+  },
+  "type": "module"
+}
