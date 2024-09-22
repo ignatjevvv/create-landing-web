@@ -14,18 +14,13 @@ program
   .version('1.0.0')
   .description('CLI для создания лендингов с готовым конфигом Vite');
 
-// Настройка команды по умолчанию без необходимости указывать `create`
 program
-  .argument('<project-name>', 'Название нового проекта') // Заменяем на аргумент по умолчанию
+  .argument('<project-name>', 'Название нового проекта')
   .action(async projectName => {
-    // Определение пути к шаблону
     const templateDir = path.join(__dirname, 'template');
-
-    // Путь для нового проекта
     const projectDir = path.join(process.cwd(), projectName);
 
     try {
-      // Копирование шаблона в папку с проектом
       console.log(chalk.blue('Создание проекта...'));
       await fs.copy(templateDir, projectDir);
 
@@ -36,5 +31,4 @@ program
     }
   });
 
-// Парсим аргументы командной строки
 program.parse(process.argv);
