@@ -9,7 +9,6 @@ const program = new Command();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Определяем текущую версию вашего пакета и описание
 program
   .version('1.0.0')
   .description('CLI для создания лендингов с готовым конфигом Vite');
